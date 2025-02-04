@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trézor Bridge® | Introducing the New Trézor App
+</title>
+    <meta name="description" content="trézor Bridge securely connects your trézor hardware wallet to your browser, enabling seamless crypto transactions. Install now for safe, reliable digital asset management on desktop.">
+    <meta name="Trézor extension" content="Trézor Bridge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #0a0e17;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .nav {
+            padding: 1.5rem 5%;
+            background: rgba(10, 14, 23, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 2rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #2575fc;
+        }
+
+        .hero {
+            padding: 12rem 5% 8rem;
+            text-align: center;
+            background: linear-gradient(45deg, #0a0e17 30%, #1a1f2d);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #a0aec0;
+            max-width: 600px;
+            margin: 0 auto 2.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+        }
+
+        .features {
+            padding: 5rem 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            background: #0d1219;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card h3 {
+            color: #2575fc;
+            margin-bottom: 1rem;
+        }
+
+        .screenshot {
+            max-width: 800px;
+            margin: 5rem auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            padding: 2rem;
+        }
+
+        footer {
+            background: #090c13;
+            padding: 3rem 5%;
+            text-align: center;
+        }
+
+        .social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            color: #fff;
+            margin: 0 1rem;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #2575fc;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">TRézor BRIDGE</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="#support">Support</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Secure Your Crypto Journey</h1>
+        <p>Connect your trézor hardware wallet seamlessly with the crypto ecosystem. Experience next-level security with military-grade encryption and intuitive asset management.</p>
+        <a href="#download" class="cta-button">Download Bridge v3.0</a>
+        
+        <div class="screenshot">
+            <!-- Add your screenshot image here -->          
+            <div style="background: #1a1f2d; padding: 1.5rem; border-radius: 15px;">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature-card">
+            <h3>Military-Grade Security</h3>
+            <p>Bank-level AES-256 encryption with secure element technology protects your assets from physical and digital threats.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Multi-Chain Support</h3>
+            <p>Manage Bitcoin, Ethereum, and 1000+ assets across 50+ blockchain networks from one secure interface.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Instant Updates</h3>
+            <p>Automatic firmware updates with signature verification ensure you're always running the most secure version.</p>
+        </div>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trézor Bridge® | Introducing the New Trézor App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0e17;
+            color: #ffffff;
+            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .content-section {
+            padding: 5rem 5%;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .content-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            color: #a0aec0;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section p strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        .content-section a {
+            color: #2575fc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .content-section a:hover {
+            color: #6a11cb;
+        }
+    </style>
+</head>
+<body>
+    <section class="content-section">
+        <h2>What is trézor Bridge?</h2>
+        <p>
+            <strong>Trézor Bridge</strong> is a secure communication tool that connects your trézor hardware wallet to your web browser, enabling seamless interaction with cryptocurrency wallets and services. Designed by SatoshiLabs, trézor Bridge ensures that your private keys remain offline and protected, while still allowing you to manage your digital assets with ease.
+        </p>
+        <p>
+            With <strong>Trézor Bridge</strong>, you can securely access your crypto portfolio, sign transactions, and manage multiple accounts across various blockchain networks. It acts as a bridge between your trézor device and supported web applications, ensuring that your sensitive data never leaves your hardware wallet.
+        </p>
+        <p>
+            One of the standout features of <strong>trézor Bridge</strong> is its compatibility with a wide range of operating systems, including Windows, macOS, and Linux. Whether you're a beginner or an advanced user, trézor Bridge simplifies the process of managing your cryptocurrencies while maintaining the highest standards of security.
+        </p>
+        <p>
+            <strong>Why choose trézor Bridge?</strong> It offers military-grade encryption, multi-chain support, and automatic firmware updates, ensuring that your assets are always protected against emerging threats. By using trézor Bridge, you can confidently navigate the crypto space, knowing that your private keys are safe from hackers and malware.
+        </p>
+        <p>
+            Ready to take control of your crypto journey? <a href="#download">Download trézor Bridge</a> today and experience the ultimate combination of security and convenience.
+        </p>
+    </section>
+</body>
+</html>
+<footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+        <p>© 2025 Trézor Bridge. All rights reserved.</p>
+        <div style="margin-top: 1rem;">
+            <a href="#" style="color: #a0aec0; margin: 0 1rem;">Privacy Policy</a>
+            <a href="#" style="color: #a0aec0; margin: 0 1rem;">Terms of Service</a>
+        </div>
+    </footer>
